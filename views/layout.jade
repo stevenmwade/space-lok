@@ -10,7 +10,38 @@ html(lang='en')
 
 
 	body
+		nav.navbar.navbar-custom.navbar-static-top
+			.container-fluid
+				.navbar-header
+					a.navbar-brand(href="/")
+						img.logo(src="/images/logo.png", alt="Space-Lok Inc.")
+				.navbar-collapse.collapse
+					ul.nav.navbar-nav.navbar-right
+							li
+								a(href="/") Home
+							li
+								a(href="/about") About
+							li
+								a(href="/products") Products
+							li
+								a(href="/facilities") Facilities
+							li
+								a(href="/contact") Contact
+
+
 		block content
+
+		
+		footer.footer
+			.footer-container
+				.row
+					.col-sm-10.col-sm-offset-1.text-center
+						p Copyright &copy; <script>document.write(new Date().getFullYear());</script> Space-Lok Inc. All rights reserved.
+						p 13306 Halldale Avenue Gardena, CA 90249
+				.row.footer-links
+					.col-sm-10.col-sm-offset-1.text-center
+						p: em <a href="/about">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/products">Producs</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/facilities">Facilities</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact">Contact</a>
+
 		script(src="/vendor/jquery/jquery-1.11.2.js")
 		script(src="/vendor/bootstrap/js/bootstrap.min.js")
 		script(src="/scripts/lib/dev.js")
