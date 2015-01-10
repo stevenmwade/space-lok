@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
@@ -109,11 +113,11 @@
 ****  PRODUCTS  ****
 *******************/
 
-.item-links a {
+.product-links a {
 	color: #31708f;
 }
 
-.item {
+.product {
 	margin: 15px 0;
 	width: 100%;
 }
@@ -130,12 +134,41 @@
 	position: relative;
 }
 
-.item-title {
+.product-title {
 	margin-left: 15px;
 	font-weight: 200;
 }
 
-.item-detail {
+.product-detail {
 	height: 100%;
 	position: absolute;
+}
+
+
+/*******************
+***  FACILITIES  ***
+*******************/
+
+.carousel-size {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.fac-title {
+	font-family: "HelveticaNeue-Light";
+	font-weight: 200;
+}
+
+
+/*******************
+*****  CONTACT  ****
+*******************/
+
+.contact-map {
+	height: 100%;
+	width: 100%;
+}
+
+.map-container {
+	height: 100%;
 }

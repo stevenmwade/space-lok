@@ -4,10 +4,84 @@ block content
 	.container
 		.building-one
 			.row
-				h2.fac-title.text-center.col-sm-12 Building One
+				h2.fac-title.text-center.col-sm-12.blue Building One
+
+			//- Picture carousel of facilities
+			//- Building One
+			#carousel-building-one.carousel.slide.carousel-size(data-ride="carousel")
+				ol.carousel-indicators
+					li.active(data-target="#carousel-building-one", data-slide-to="0")
+					li(data-target="#carousel-building-one", data-slide-to="1")
+					li(data-target="#carousel-building-one", data-slide-to="2")
+				.carousel-inner(role="listbox")
+					.item.active
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+					.item
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+					.item
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+				a.left.carousel-control(href="#carousel-building-one", role="button", data-slide="prev")
+					span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+					span.sr-only
+				a.right.carousel-control(href="#carousel-building-one", role="button", data-slide="next")
+					span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+					span.sr-only
+
 		.building-two
 			.row
-				h2.fac-title.text-center.col-sm-12 Building Two
+				h2.fac-title.text-center.col-sm-12.blue Building Two
+
+			//- Picture carousel of facilities
+			//- Building Two
+			#carousel-building-two.carousel.slide.carousel-size(data-ride="carousel")
+				ol.carousel-indicators
+					li.active(data-target="#carousel-building-two", data-slide-to="0")
+					li(data-target="#carousel-building-two", data-slide-to="1")
+					li(data-target="#carousel-building-two", data-slide-to="2")
+				.carousel-inner(role="listbox")
+					.item.active
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+					.item
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+					.item
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+				a.left.carousel-control(href="#carousel-building-two", role="button", data-slide="prev")
+					span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+					span.sr-only
+				a.right.carousel-control(href="#carousel-building-two", role="button", data-slide="next")
+					span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+					span.sr-only
+
 		.lab
 			.row
-				h2.fac-title.text-center.col-sm-12 Lab
+				h2.fac-title.text-center.col-sm-12.blue Lab
+
+			//- Picture carousel of facilities
+			//- Lab
+			#carousel-lab.carousel.slide.carousel-size(data-ride="carousel")
+				ol.carousel-indicators
+					li.active(data-target="#carousel-lab", data-slide-to="0")
+					li(data-target="#carousel-lab", data-slide-to="1")
+					li(data-target="#carousel-lab", data-slide-to="2")
+				.carousel-inner(role="listbox")
+					.item.active
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+					.item
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+					.item
+						img(src="http://placehold.it/900x400", alt="")
+						.carousel-caption
+				a.left.carousel-control(href="#carousel-lab", role="button", data-slide="prev")
+					span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+					span.sr-only
+				a.right.carousel-control(href="#carousel-lab", role="button", data-slide="next")
+					span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+					span.sr-only
