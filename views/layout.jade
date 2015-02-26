@@ -7,21 +7,13 @@ html(lang='en')
 		//- style(src="/vendor/bootstrap/css/bootstrap-theme.min.css")
 		link(rel="stylesheet", href="/styles/lib/dev.css")
 		//- style(src="/styles/main.css")
-		script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?key=")
-		script(type="text/javascript").
-			function initialize() {
-				var mapOptions = {
-					center: { lat: 0, lng: 0},
-					zoom: 8
-				};
-				var map = new google.maps.Map(document.getElementById('map-canvas'),
-									mapOptions);
-			 }
-			 google.maps.event.addDomListener(window, 'load', initialize);
+		link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")
+		script(src="https://maps.googleapis.com/maps/api/js?key=")
+		script(src="/scripts/map.js")
 
 
 	body
-		nav.navbar.navbar-custom.navbar-static-top
+		nav.navbar.navbar-custom.navbar-fixed-top
 			.container-fluid
 				.navbar-header
 					a.navbar-brand(href="/")
@@ -51,7 +43,7 @@ html(lang='en')
 						p 13306 Halldale Avenue Gardena, CA 90249
 				.row.footer-links
 					.col-sm-10.col-sm-offset-1.text-center
-						p: em <a href="/about">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/products">Producs</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/facilities">Facilities</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact">Contact</a>
+						p: em <a href="/about">About</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/products">Products</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/facilities">Facilities</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact">Contact</a>
 
 		script(src="/vendor/jquery/jquery-1.11.2.js")
 		script(src="/vendor/bootstrap/js/bootstrap.min.js")

@@ -1,20 +1,65 @@
 extends layout
 
 block content
-	//- nav.navbar.navbar-custom.navbar-static-top
-	//- 	.container-fluid
-	//- 		.navbar-header
-	//- 			a.navbar-brand(href="/")
-	//- 				img.logo(src="/images/logo.png", alt="Space-Lok Inc.")
-	//- 		.navbar-collapse.collapse
-	//- 			ul.nav.navbar-nav.navbar-right
-	//- 					li
-	//- 						a(href="/") Home
-	//- 					li
-	//- 						a(href="/about") About
-	//- 					li
-	//- 						a(href="/products") Products
-	//- 					li
-	//- 						a(href="/facilities") Facilities
-	//- 					li
-	//- 						a(href="/contact") Contact
+	main.content
+		.hero
+			img(src="/images/facilities/building-one/outside.jpg", alt="Main Building")
+
+		.container
+			#tri-description
+				.row
+					.col-sm-4.text-center
+						.row.tri-title
+							.col-sm-12
+								i.fa.fa-plane.blue.fa-5x
+						.row
+							.col-sm-10.col-sm-offset-1
+								p  Space-Lok, Inc. specializes in the design, development and manufacture of high quality fasteners and multiple component mechanisms for all sectors of the aerospace industry. Established in 1962, Space-Lok has, over the last four decades, earned a reputation for providing superior products and services to our many aerospace customers.
+					.col-sm-4.text-center
+						.row.tri-title
+							.col-sm-12
+								i.fa.fa-space-shuttle.blue.fa-5x
+						.row
+							.col-sm-10.col-sm-offset-1
+								p  Space-Lok's facility houses a full range of state-of -the-art manufacturing equipment complemented by an advanced, on-site testing laboratory. Space-Lok is ideally suited to serve the varied needs and strict Quality Control standards of the aerospace and nuclear industries.
+					.col-sm-4.text-center
+						.row.tri-title
+							.col-sm-12
+								i.fa.fa-life-ring.blue.fa-5x
+						.row
+							.col-sm-10.col-sm-offset-1
+								p  Space-Lok's manufacturing facility possesses extensive in-house capabilities such as CNC machining, hot and cold heading (forging), thread rolling, gun-drilling, grinding, EDM machining, tapping and toolmaking covering the full range of aerospace materials and strength levels.
+			#clients
+				.row.text-center.client-title
+					h2.blue Companies that use our parts:
+				.row.row-1
+					.client-logo.sikorsky
+						img(src="images/logos/Sikorsky.jpg", alt="")
+					.client-logo
+						img(src="images/logos/Army.jpg", alt="")
+					.client-logo
+						img(src="images/logos/airforce.jpg", alt="")
+					.client-logo
+						img(src="images/logos/boeing.gif", alt="")
+				.row.row-2
+					.client-logo
+						img(src="images/logos/lockheed.png", alt="")
+					.client-logo
+						img(src="images/logos/NorthropGrumman.png", alt="")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

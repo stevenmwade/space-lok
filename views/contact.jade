@@ -1,23 +1,25 @@
 extends layout
 
 block content
-	.container
-		.contact
-			.row
-				.col-sm-4
-					h3.blue Contact
-			.row
-				.col-sm-4.col
-					h5.uppercase.main-office: strong Main Office
-					p &nbsp;&nbsp;&nbsp;13306 Halldale Ave<br />&nbsp;&nbsp;&nbsp;Gardena, CA 90249
-					h5.uppercase.mailing-address: strong Mailing Address
-					p &nbsp;&nbsp;&nbsp;P.O. BOX 2919<br />&nbsp;&nbsp;&nbsp;Gardena, CA 90247
-					h5.uppercase.contact-tel: strong Tel &amp; Fax
-					p &nbsp;&nbsp;&nbsp;Tel: <a href="tel:310-527-6150">310.527.6150</a>
-					p &nbsp;&nbsp;&nbsp;Fax: 310.527.7978
-					h5.uppercase.contact-email: strong Email
-					p &nbsp;&nbsp;&nbsp;<a href="mailto:sales@space-lok.com">Sales</a>
-					p &nbsp;&nbsp;&nbsp;<a href="mailto:technical@space-lok.com">Technical</a>
-					p &nbsp;&nbsp;&nbsp;<a href="mailto:web@space-lok.com">Web</a>
-				.col-sm-7.map.col-sm-offset-1.map-container
-					#contact-map
+	.content
+		.container
+			.contact
+				//- .row
+				//- 	.col-sm-4
+				//- 		h2.blue.contact-title Contact
+				.row
+					.col-sm-3
+						h5.uppercase.main-office: strong Main Office
+						p &nbsp;&nbsp;&nbsp;13306 Halldale Ave<br />&nbsp;&nbsp;&nbsp;Gardena, CA 90249
+						h5.uppercase.mailing-address: strong Mailing Address
+						p &nbsp;&nbsp;&nbsp;P.O. BOX 2919<br />&nbsp;&nbsp;&nbsp;Gardena, CA 90247
+						h5.uppercase.contact-tel: strong Tel &amp; Fax
+						p &nbsp;&nbsp;&nbsp;<i class="fa fa-phone"></i> <a href="tel:310-527-6150">310.527.6150</a>
+						p &nbsp;&nbsp;&nbsp;<i class="fa fa-fax"></i> 310.527.7978
+						h5.uppercase.contact-email: strong Email
+						p &nbsp;&nbsp;&nbsp;<a href="mailto:sales@space-lok.com">Sales</a>
+						p &nbsp;&nbsp;&nbsp;<a href="mailto:technical@space-lok.com">Technical</a>
+						p &nbsp;&nbsp;&nbsp;<a href="mailto:web@space-lok.com">Web</a>
+					.col-sm-9.map
+						.map-container
+							#contact-map
