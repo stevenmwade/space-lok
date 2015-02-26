@@ -170,6 +170,10 @@ nav {
 	padding-top: 7px;
 }
 
+.footer-container .row {
+	margin-top: 12px;
+}
+
 .footer-links {
 	margin-top: 3px;
 }
@@ -223,6 +227,21 @@ nav {
 
 .product-container {
 	position: relative;
+}
+
+.product-container img {
+	max-width: 200px;
+	margin: auto 0;
+}
+
+.product-carousel {
+	height: 150px;
+	width: 200px;
+}
+
+.product-carousel img {
+	max-width: 150px;
+	margin: auto 0; 
 }
 
 .product-title {
