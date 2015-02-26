@@ -144,6 +144,10 @@ nav {
 	letter-spacing: 1px;
 }
 
+.navbar-nav li a:hover {
+	background-color: #FFF;
+	color: #2d98e8;
+}
 
 
 /*******************
